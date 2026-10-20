@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.header {
+background-color: rgb(76 175 80);
+color: white;
+text-align: center;
+padding: 30px;
+height: 150px;
+}
+.header h1{
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+.box-1 a{
+    margin: 0 5px;
+    font-size: 25px;
+}
+/* nội dung chính */
+.container{
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+
+.side-bar {
+    width: 25%;
+    min-height: 400px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+
+}
+.side-bar h2{
+    font-size: 35px;
+    padding: 20px;
+}
+.Box-2 {
+    padding-left: 28px;
+    font-size: 25px;
+}
+/* bài viết */
+.content{
+    flex: 1;
+    min-width: 0;
+}
+.post {
+    padding: 5px 0 12px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+}
+.post h2{
+    font-size: 20px;
+    margin: 14px 0;
+}
+.post img{
+    display: block;
+    width: 500px;
+    height: auto;
+}
+.post p{
+    font-size: 15px;
+    color: #555;
+    padding-top: 10px;
+}
+/* footer */
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+

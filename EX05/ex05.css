@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 20px 5%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222
+}
+.container{
+    width: 100%;
+}
+.header {
+background-color: rgb(76 175 80);
+color: #ffffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+}
+
+.logo {
+    font-size: 30px;
+    float: left;
+    line-height: 60px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.list-link {
+    display: flex;
+   gap:25px;
+}
+/* chỉ có thẻ a nằm trong header mới được áp dụng */
+.header .link-items{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+.link-items:last-child{
+    margin-right: 20px;
+}
+/* banner */
+.banner {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 25px;
+}
+.banner button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* feature */
+.Features{
+    display: flex;
+    gap: 20px;
+}
+
+.Feature{
+ flex: 1;
+background-color: #ddd;
+text-align: center;
+padding: 20px;
+border-radius: 8px;
+font-size: 20px;
+cursor: pointer;
+}
+.Feature:hover{
+    background-color: #9e9e9f ;
+}
+/* footer */
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
